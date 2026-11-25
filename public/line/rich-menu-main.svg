@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2500" height="1686" viewBox="0 0 2500 1686">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#05070a"/>
+      <stop offset="0.46" stop-color="#10151a"/>
+      <stop offset="1" stop-color="#06150f"/>
+    </linearGradient>
+    <radialGradient id="glowOrange" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#ff7a1a" stop-opacity=".54"/>
+      <stop offset="1" stop-color="#ff7a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="50%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#32e07a" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#32e07a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1b2229"/>
+      <stop offset=".62" stop-color="#11171c"/>
+      <stop offset="1" stop-color="#0b1115"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff9a35"/>
+      <stop offset="1" stop-color="#ff5a00"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#60f09a"/>
+      <stop offset="1" stop-color="#11b964"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="30" stdDeviation="28" flood-color="#000000" flood-opacity=".56"/>
+    </filter>
+    <filter id="soft" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <style>
+      .brand { font: 950 98px Arial, sans-serif; fill: #f8faf6; }
+      .dot { fill: #ff6a00; }
+      .sub { font: 800 32px Arial, "Noto Sans Thai", sans-serif; fill: #aeb6bf; }
+      .eyebrow { font: 900 23px Arial, sans-serif; letter-spacing: 5px; fill: #ff7a1a; }
+      .title { font: 950 58px Arial, "Noto Sans Thai", sans-serif; fill: #ffffff; }
+      .meta { font: 800 31px Arial, "Noto Sans Thai", sans-serif; fill: #b6bec7; }
+      .strokeO { fill: none; stroke: url(#orange); stroke-width: 18; stroke-linecap: round; stroke-linejoin: round; }
+      .strokeG { fill: none; stroke: url(#green); stroke-width: 18; stroke-linecap: round; stroke-linejoin: round; }
+      .thinO { fill: none; stroke: #ff7a1a; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; opacity: .72; }
+      .thinG { fill: none; stroke: #30e17a; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; opacity: .72; }
+      .shine { fill: #ffffff; opacity: .08; }
+    </style>
+  </defs>
+
+  <rect width="2500" height="1686" fill="url(#bg)"/>
+  <circle cx="320" cy="120" r="310" fill="url(#glowOrange)" filter="url(#soft)" opacity=".58"/>
+  <circle cx="2240" cy="1600" r="420" fill="url(#glowGreen)" filter="url(#soft)" opacity=".6"/>
+  <path d="M0 0h2500v1686H0z" fill="none" stroke="#242b33" stroke-width="6"/>
+  <path d="M100 170C322 74 578 78 790 165" fill="none" stroke="#ff7a1a" stroke-width="18" stroke-linecap="round" opacity=".28"/>
+  <path d="M1698 1556c217-88 439-88 690 0" fill="none" stroke="#30e17a" stroke-width="18" stroke-linecap="round" opacity=".24"/>
+
+  <text x="104" y="118" class="brand">PPA<tspan class="dot">.</tspan></text>
+  <text x="106" y="168" class="sub">POWER PLAY SPORT COMPLEX</text>
+  <text x="1396" y="92" text-anchor="middle" class="eyebrow">PREMIUM MEMBER SERVICES</text>
+  <text x="1396" y="140" text-anchor="middle" class="sub">แตะเมนูเพื่อเปิดบริการใน LINE</text>
+
+  <g transform="translate(64 226)" filter="url(#shadow)">
+    <rect width="740" height="626" rx="36" fill="url(#card)" stroke="#333c45" stroke-width="5"/>
+    <path class="shine" d="M30 30h680v96C470 85 232 92 30 180z"/>
+    <circle cx="376" cy="175" r="116" fill="url(#glowOrange)" opacity=".82"/>
+    <g transform="translate(246 64)">
+      <path class="strokeO" d="M18 128L130 30l112 98"/>
+      <path class="strokeO" d="M50 104v128h160V104"/>
+      <path class="thinO" d="M106 232v-62h48v62"/>
+      <path class="thinO" d="M178 58v-24h26v46"/>
+    </g>
+    <text x="76" y="395" class="title">หน้าหลัก</text>
+    <text x="76" y="456" class="meta">ภาพรวม ข่าวสาร โปรโมชัน</text>
+    <path d="M76 535h520" stroke="#ff7a1a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M552 492l48 43-48 43" fill="none" stroke="#ff7a1a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(880 226)" filter="url(#shadow)">
+    <rect width="740" height="626" rx="36" fill="url(#card)" stroke="#333c45" stroke-width="5"/>
+    <path class="shine" d="M30 30h680v96C470 85 232 92 30 180z"/>
+    <circle cx="376" cy="175" r="116" fill="url(#glowGreen)" opacity=".86"/>
+    <g transform="translate(246 60)">
+      <path class="strokeG" d="M130 22l104 54v112l-104 54-104-54V76z"/>
+      <path class="thinG" d="M26 76l104 54 104-54M130 130v112"/>
+      <path class="thinG" d="M78 49l104 54v42"/>
+    </g>
+    <text x="76" y="395" class="title">แพ็กเกจ</text>
+    <text x="76" y="456" class="meta">Monthly · Time · Coupon</text>
+    <path d="M76 535h520" stroke="#30e17a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M552 492l48 43-48 43" fill="none" stroke="#30e17a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(1696 226)" filter="url(#shadow)">
+    <rect width="740" height="626" rx="36" fill="url(#card)" stroke="#333c45" stroke-width="5"/>
+    <path class="shine" d="M30 30h680v96C470 85 232 92 30 180z"/>
+    <circle cx="376" cy="175" r="116" fill="url(#glowOrange)" opacity=".82"/>
+    <g transform="translate(238 88)">
+      <path class="strokeO" d="M28 68h248v56c-32 0-32 50 0 50v56H28v-56c32 0 32-50 0-50z"/>
+      <path class="thinO" d="M104 68v162M154 108h74M154 150h74M154 192h48"/>
+    </g>
+    <text x="76" y="395" class="title">คูปอง</text>
+    <text x="76" y="456" class="meta">คูปองของฉัน ซื้อเพิ่ม</text>
+    <path d="M76 535h520" stroke="#ff7a1a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M552 492l48 43-48 43" fill="none" stroke="#ff7a1a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(64 914)" filter="url(#shadow)">
+    <rect width="740" height="626" rx="36" fill="url(#card)" stroke="#333c45" stroke-width="5"/>
+    <path class="shine" d="M30 30h680v96C470 85 232 92 30 180z"/>
+    <circle cx="376" cy="175" r="116" fill="url(#glowGreen)" opacity=".86"/>
+    <g transform="translate(260 68)">
+      <rect class="strokeG" x="16" y="36" width="198" height="198" rx="24"/>
+      <path class="thinG" d="M115 36v198M16 135h198M66 36v198M164 36v198"/>
+      <path class="thinG" d="M16 83h198M16 187h198"/>
+    </g>
+    <text x="76" y="395" class="title">จองสนาม</text>
+    <text x="76" y="456" class="meta">คอร์ท เวลา กีฬา</text>
+    <path d="M76 535h520" stroke="#30e17a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M552 492l48 43-48 43" fill="none" stroke="#30e17a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(880 914)" filter="url(#shadow)">
+    <rect width="740" height="626" rx="36" fill="url(#card)" stroke="#333c45" stroke-width="5"/>
+    <path class="shine" d="M30 30h680v96C470 85 232 92 30 180z"/>
+    <circle cx="376" cy="175" r="116" fill="url(#glowOrange)" opacity=".82"/>
+    <g transform="translate(240 80)">
+      <rect class="strokeO" x="20" y="42" width="238" height="160" rx="26"/>
+      <path class="thinO" d="M20 94h238M70 152h64M188 150h32"/>
+      <circle cx="224" cy="66" r="9" fill="#ff7a1a"/>
+    </g>
+    <text x="76" y="395" class="title">วอลเล็ต</text>
+    <text x="76" y="456" class="meta">เติมเงิน Coin Point</text>
+    <path d="M76 535h520" stroke="#ff7a1a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M552 492l48 43-48 43" fill="none" stroke="#ff7a1a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(1696 914)" filter="url(#shadow)">
+    <rect width="740" height="626" rx="36" fill="url(#card)" stroke="#333c45" stroke-width="5"/>
+    <path class="shine" d="M30 30h680v96C470 85 232 92 30 180z"/>
+    <circle cx="376" cy="175" r="116" fill="url(#glowGreen)" opacity=".86"/>
+    <g transform="translate(252 74)">
+      <path class="strokeG" d="M30 142c0-72 42-116 112-116s112 44 112 116"/>
+      <path class="strokeG" d="M30 146v50c0 24 17 42 42 42h18v-92H72c-25 0-42 18-42 42M254 146v50c0 24-17 42-42 42h-18v-92h18c25 0 42 18 42 42"/>
+      <path class="thinG" d="M142 238c22 0 40-8 54-24"/>
+    </g>
+    <text x="76" y="395" class="title">ช่วยเหลือ</text>
+    <text x="76" y="456" class="meta">ติดต่อทีม PPA</text>
+    <path d="M76 535h520" stroke="#30e17a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M552 492l48 43-48 43" fill="none" stroke="#30e17a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
